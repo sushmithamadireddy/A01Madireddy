@@ -1,0 +1,83 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>sushmitha madireddy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body id="crying" onload='hideTotal()'>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Sushmitha Madireddy</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="yourchoice.html">YourChoice</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            <article>            
+      <h1>Order your pizza here...!
+          </h1>
+<form>
+    your name:<input type="text"/></br>
+    your phone number:<input type="text"/></br>
+    <p>Size:
+        <label><input type="radio" name="size" value="5" /> Small</label>
+        <label><input type="radio" name="size" value="8" checked="checked" /> Medium</label>
+        <label><input type="radio" name="size" value="12" /> Large</label>
+        <input type="hidden" name="sz_tot" value="0.00" />
+    </p>
+    
+    <p id="pizza_toppings">Toppings:
+        <label><input type="checkbox" name="mushrooms" value=".40" /> mushrooms</label>
+        <label><input type="checkbox" name="onions" value=".30" /> onions</label>
+        <label><input type="checkbox" name="black_olives" value=".40" /> black olives</label>
+        <label><input type="checkbox" name="sausage" value=".50" /> sausage</label>
+        <label><input type="checkbox" name="pepperoni" value=".50" /> pepperoni</label>
+        <input type="hidden" name="tops_tot" value="0.00" />
+    </p>
+    
+    <p><label>Total: $ <input type="text" name="total" class="num" value="0.00" readonly="readonly" /></label></p>
+    
+<br>
+Address:<br>
+<textarea  rows=3 cols=30 ></textarea><br>
+<input type="submit" name="submit" value="Order Now" disabled /> 
+
+<br>
+<br>
+<br>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>catch me at </h3><a href="https://bitbucket.org/Sushmitha_madireddy/"><img src="img/logo.png" alt="face"/></a>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       
+    </body>
+</html>
